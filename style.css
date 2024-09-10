@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 100vh;          
+}
+
+img {
+    width: 500px;
+    height: auto;
+    /* Ruta relativa para la imagen desde el archivo CSS */
+    background-image: url('img/halo.png'); 
+}
